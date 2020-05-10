@@ -2,46 +2,50 @@
 function generateMarkdown(data) {
   console.log(data);
 
-//   return `# ${data.title}
-//   //License
+  return `# ${data.title}
 
-//   ## Description
-//   ${data.test}
+  ### License Badge
 
-//   ## Table of Contents
-//   * [Installation] (#installation)
-//   * [Usage] (#usage)
-//   * [Credits] (#credits)
-//   * [License] (#license)
-//   * [Contributing] (#contributing)
-//   * [Tests] (#tests)
-//   * [Questions] (#questions)
+  ![Github License](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
-//   ## Installation
+  ## Description
+  ${data.description}
+
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
+  ## Installation
     
-//     To install necessary dependencies, run the following command:
+    To install necessary dependencies, run the following command:
     
-//     ${data.depends}
+    ${data.depends}
   
-//   ## Usage
+  ## Usage
 
-//   ## License
+  ${data.repoUse}
 
-//     This project is licensed under the ${data.license} license
+  ## License
 
-//   ## Contributing
+    This project is licensed under the ${data.license} license
 
-//     ${data.contribute}
+  ## Contributing
 
-//   ## Tests
+    ${data.contribute}
 
-//     To run tests, run the following command
+  ## Tests
 
-//     ${data.tests}
+    To run tests, run the following command
 
-//   ## Questions
-//     If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.github}.  
-// `;
+    ${data.test}
+
+  ## Questions
+    If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.github}.  
+`;
 }
 
 module.exports = generateMarkdown;
