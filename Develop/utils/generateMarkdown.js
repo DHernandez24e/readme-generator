@@ -2,11 +2,26 @@
 function generateMarkdown(data) {
   console.log(data);
 
+  const licenseBadge = () => {
+    if (data.license === 'MIT') {
+      return 'https://img.shields.io/badge/license-MIT-brightgreen';
+    }
+    else if (data.license === 'APACHE 2.0') {
+      return 'https://img.shields.io/badge/license-APACHE%202.0-orange'
+    }
+    else if (data.license === 'GPL 3.0') {
+      return 'https://img.shields.io/badge/license-GPL%203.0-blue'
+    }
+    else if (data.license === 'BSD 3') {
+      return 'https://img.shields.io/badge/license-BSD%203-red'
+    }
+  };
+
   return `# ${data.title}
 
   ### License Badge
 
-  ![Github License](https://img.shields.io/badge/license-${data.license}-blue.svg)
+  ![Github License](${licenseBadge()})
 
   ## Description
   ${data.description}
@@ -44,7 +59,7 @@ function generateMarkdown(data) {
     ${data.test}
 
   ## Questions
-    If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at ${data.github}.  
+    If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at github.com/${data.github}.  
 `;
 }
 

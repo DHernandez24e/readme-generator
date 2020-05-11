@@ -81,7 +81,7 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(data) {
+const writeToFile = data => {
     fs.writeFile('README.md', data, err => {
         if (err) throw err;
         console.log('Generating README...');
@@ -89,7 +89,7 @@ function writeToFile(data) {
 }
 
 // function to initialize program
-function init() {
+const init = () => {
     return inquirer.prompt(questions)
     .then(data => {
         return generateMarkdown(data);

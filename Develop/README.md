@@ -1,11 +1,11 @@
-# Seach The Sound
+# d
 
   ### License Badge
 
-  ![Github License](http://img.shields.io/badge/license-MIT-blue.svg)
+  ![Github License](https://img.shields.io/badge/license-BSD%203-red)
 
   ## Description
-  Users can search for their favorite artists, and receive information about them, along with their top songs. Users can also add top songs into a playlist, which can be reordered to their preference.
+  d
 
   ## Table of Contents
   * [Installation](#installation)
@@ -19,19 +19,19 @@
     
     To install necessary dependencies, run the following command:
     
-    npm i
+    d
   
   ## Usage
 
-  Users can add progress to this application
+  Nothing
 
   ## License
 
-    This project is licensed under the MIT license
+    This project is licensed under the BSD 3 license
 
   ## Contributing
 
-    Please inform admins of any changes that are administered
+    Nothing
 
   ## Tests
 
@@ -40,4 +40,4 @@
     None
 
   ## Questions
-    If you have any questions about the repo, open an issue or contact me directly at dhernandez24e@hotmail.com. You can find more of my work at dhernandez24e.  
+    If you have any questions about the repo, open an issue or contact me directly at d. You can find more of my work at github.com/d.  
