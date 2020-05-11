@@ -1,11 +1,11 @@
-# d
+# s
 
   ### License Badge
 
-  ![Github License](https://img.shields.io/badge/license-BSD%203-red)
+  ![Github License](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Description
-  d
+  s
 
   ## Table of Contents
   * [Installation](#installation)
@@ -19,7 +19,7 @@
     
     To install necessary dependencies, run the following command:
     
-    d
+    npm i
   
   ## Usage
 
@@ -27,7 +27,7 @@
 
   ## License
 
-    This project is licensed under the BSD 3 license
+    This project is licensed under the MIT license
 
   ## Contributing
 
@@ -37,7 +37,7 @@
 
     To run tests, run the following command
 
-    None
+    'npm test'
 
   ## Questions
-    If you have any questions about the repo, open an issue or contact me directly at d. You can find more of my work at github.com/d.  
+    If you have any questions about the repo, open an issue or contact me directly at s. You can find more of my work at github.com/s.  

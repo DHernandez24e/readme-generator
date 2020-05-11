@@ -64,7 +64,7 @@ const questions = [
         type: 'input',
         name: 'test',
         message: 'What command should you run to run tests?',
-        default: 'None'
+        default: 'npm test'
     },
     {
         type: 'input',
@@ -93,8 +93,8 @@ const init = () => {
     return inquirer.prompt(questions)
     .then(data => {
         return generateMarkdown(data);
-    }).then(markdown => {
-        return writeToFile(markdown)
+    }).then(markdownData => {
+        return writeToFile(markdownData)
     });
 }
 
