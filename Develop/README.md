@@ -1,11 +1,11 @@
-# d
+# Test Project
 
   ### License Badge
 
   ![Github License](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Description
-  
+  this is a test readme for a test project
 
   ## Table of Contents
   * [Installation](#installation)
@@ -23,7 +23,7 @@
   
   ## Usage
 
-  Nothing
+  This is a test
 
   ## License
 
@@ -41,4 +41,4 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at d. You can find more of my work *[here](https://github.com/dhernandez24e) .  
+  If you have any questions about the repo, open an issue or contact me directly at dhernandez24e@hotmail.com. You can find more of my work [here](https://github.com/dhernandez24e) .  
