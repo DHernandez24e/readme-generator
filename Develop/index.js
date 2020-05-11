@@ -76,7 +76,7 @@ const questions = [
         type: 'input',
         name: 'contribute',
         message: 'What does the user need to know about contributing to the repo?',
-        default: 'Nothing'
+        default: 'No notes for contributing'
     }
 ];
 

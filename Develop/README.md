@@ -1,11 +1,11 @@
-# s
+# d
 
   ### License Badge
 
   ![Github License](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Description
-  s
+  
 
   ## Table of Contents
   * [Installation](#installation)
@@ -17,7 +17,7 @@
 
   ## Installation
     
-    To install necessary dependencies, run the following command:
+  To install necessary dependencies, run the following command:
     
     npm i
   
@@ -27,17 +27,18 @@
 
   ## License
 
-    This project is licensed under the MIT license
+  This project is licensed under the MIT license
 
   ## Contributing
 
-    Nothing
+  No notes for contributing
 
   ## Tests
 
-    To run tests, run the following command
+  To run tests, run the following command
 
-    'npm test'
+    npm test
 
   ## Questions
-    If you have any questions about the repo, open an issue or contact me directly at s. You can find more of my work at github.com/s.  
+
+  If you have any questions about the repo, open an issue or contact me directly at d. You can find more of my work *[here](https://github.com/dhernandez24e) .  
